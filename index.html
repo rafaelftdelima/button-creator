@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Button Creator</title>
+    </head>
+
+    <body id="home">
+        <section class="button-creator">
+            <form id="container">
+                <label for="text">Texto</label>
+                <input type="text" name="text" id="text">
+
+                <label for="color">Cor do texto</label>
+                <input type="color" name="color" id="color">
+
+                <label for="background">Cor de fundo</label>
+                <input type="color" name="background" id="background">
+
+                <label for="height">Altura</label>
+                <input type="range" name="height" id="height" min="0" max="200">
+
+                <label for="width">Comprimento</label>
+                <input type="range" name="width" id="width" min="0" max="600">
+
+                <label for="border">Borda</label>
+                <input type="text" name="border" id="border">
+
+                <label for="bradius">Arredondamento da borda</label>
+                <input type="text" name="bradius" id="bradius" min="0" max="600">
+
+                <select name="family" id="family">
+                    <option value="Arial">Arial</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="monospace">Monospace</option>
+                </select>
+
+                <label for="size">Tamanho da fonte</label>
+                <input type="number" name="size" id="size">
+            </form>
+        </section>
+
+        <section class="result">
+            <button class="button">Lorem Text</button>
+            <pre><code class="css"></code></pre>
+        </section>
+    </body>
+</html>
